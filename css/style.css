@@ -175,6 +175,22 @@ body {
   text-align: center;
   padding: 2.5rem; }
 
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex;
+  align-items: center; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    height: 1.75rem;
+    width: 1.75rem;
+    fill: var(--color-primary); }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -203,5 +219,4 @@ body {
 
 .hotel-view {
   flex: 1;
-  background-color: orangered;
   height: 80rem; }

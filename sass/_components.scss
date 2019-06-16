@@ -172,10 +172,6 @@
      align-items: center;
   }
 
-  &__link:hover {
-
-  }
-
   &__icon {
     height: 1.75rem;
     width: 1.75rem;
@@ -189,4 +185,52 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+//////////////////////////////////////////
+// HOTEL OVERVIEW
+.overview {
+  display: flex;
+  align-items: center;
+
+
+  &__heading {
+
+  }
+
+  &__stars {
+    margin-right: auto; // Do remember Andreas
+  }
+
+  &__icon-star,
+  &__icon-location {
+    height: 1.75rem;
+    width: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+
+  }
+
+  &__rating {
+
+  }
+
+  &__rating-average {
+
+  }
+
+  &__rating-count {
+
+  }
 }
